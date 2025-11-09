@@ -198,8 +198,7 @@ namespace Alumno_Materia
                 conn.Close();
             }
             catch (Exception ex)
-            {
-
+            {   
                 MessageBox.Show(ex.ToString());
             }
 
@@ -274,6 +273,11 @@ namespace Alumno_Materia
         private void bntGrabar_Click(object sender, EventArgs e)
         {
             Agregar_alumno_curso();
+        }
+
+        private void dgv_alumnos_materias_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -51,6 +51,7 @@
             this.dgv_alumnos_materias.Name = "dgv_alumnos_materias";
             this.dgv_alumnos_materias.Size = new System.Drawing.Size(768, 176);
             this.dgv_alumnos_materias.TabIndex = 0;
+            this.dgv_alumnos_materias.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_alumnos_materias_CellContentClick);
             // 
             // cbxAlumnos
             // 
